@@ -1,0 +1,27 @@
+.product-container {
+    display: inline-block;
+    width: 350px;  /* Fixed square dimensions */
+    height: 350px;  /* Fixed square dimensions */
+    margin: 50px;
+    vertical-align: top;
+    background-color: gray;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: middle;
+  }
+  
+  
+  .product-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 10px;  /* Optional, add some space below the image */
+  }
+
+  .product-title {
+    text-align: left; 
+    margin-bottom: 10px;
+    
+  }
+  
